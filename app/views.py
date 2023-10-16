@@ -86,4 +86,4 @@ def core(request):
                     spamwriter.writerow(data1)
 
         return render(request,'thankyou.html')
-    return render(request,'core.html')
+    return render(request,'thankyou.html')
